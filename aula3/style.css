@@ -1,6 +1,7 @@
 body {
   background-color: #d5e4ff; /* cor de fundo da página */
-  font-family: Arial, sans-serif; /* fonte do texto */
+  font-family: Georgia, 'Times New Roman', Times, serif
+  ; /* fonte do texto */
 }
 
 h1 {
