@@ -1,0 +1,16 @@
+body {
+  background-color: #d5e4ff; /* cor de fundo da página */
+  font-family: Arial, sans-serif; /* fonte do texto */
+}
+
+h1 {
+  color: rgb(11, 8, 63);
+  font-size: 36px;
+  text-align: center;
+}
+
+p {
+  color: #2e92d0;
+  font-size: 24px;
+  text-align: justify;
+}
