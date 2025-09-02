@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/sistema/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sisema de cadastro escolar</h1>
+        <h1>Bem-vindos ao sistema de cadastro da nossa escola virtual</h1>
+        <h2>📚Menu cadastro</h2>
+        <a href="/sistema/aluno.html"><button>👩‍🎓Cadastrar aluno</button></a>
+        <a href="/sistema/livro.html"><button>📖Cadastrar livro</button></a>
+        <a href="/sistema/professor.html"><button>👩‍🏫Cadastrar Professores</button></a>
+        <a href="/sistema/curso.htm"><button>📚Cadastrar Curso</button></a>
+
+               
+
+        <div class="formulario">
+    <h2>📖Cadastro de Livro (Biblioteca)</h2>
+    <form action="">
+        
+        <label for="titulo">Título do Livro:</label><br>
+        <input type="text" id="titulo" name="titulo">
+        <br><br>
+
+        <label for="autor">Autor:</label><br>
+        <input type="text" id="autor" name="autor">
+        <br><br>
+
+        <label for="ano">Ano de Publicação:</label><br>
+        <input type="number" id="ano" name="ano" min="1000" max="2099">
+        <br><br>
+
+        <label for="editora">Editora:</label><br>
+        <input type="text" id="editora" name="editora">
+        <br><br>
+
+        <label for="genero">Gênero:</label><br>
+        <select id="genero" name="genero">
+            <option value="">Selecione o gênero</option>
+            <option value="ficcao">Ficção</option>
+            <option value="nao-ficcao">Não Ficção</option>
+            <option value="romance">Romance</option>
+            <option value="aventura">Aventura</option>
+            <option value="cientifico">Científico</option>
+            <option value="biografia">Biografia</option>
+        </select>
+        <br><br>
+
+        <label for="paginas">Número de Páginas:</label><br>
+        <input type="number" id="paginas" name="paginas" min="1">
+        <br><br>
+
+        <label>Condição:</label><br>
+        <input type="radio" name="condicao" value="novo"> Novo <br>
+        <input type="radio" name="condicao" value="usado-bom"> Usado - Bom Estado <br>
+        <input type="radio" name="condicao" value="usado-regular"> Usado - Estado Regular <br>
+        <br>
+
+        <label for="localizacao">Localização na Biblioteca:</label><br>
+        <input type="text" id="localizacao" name="localizacao">
+        <br><br>
+
+        <label>Características:</label><br>
+        <input type="checkbox" name="caracteristicas" value="ilustrado"> Ilustrado <br>
+        <input type="checkbox" name="caracteristicas" value="capa-dura"> Capa Dura <br>
+        <input type="checkbox" name="caracteristicas" value="edicao-especial"> Edição Especial <br>
+        <br><br>
+
+        <button type="submit">Cadastrar Livro</button>
+        <button type="reset">Limpar Dados</button>
+
+    </form>
+</div>
+    </div>
+
+</body>
+</html>
