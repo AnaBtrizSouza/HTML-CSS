@@ -1,0 +1,45 @@
+body{
+    background-color: beige;
+}
+#bloco1{
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+#bloco2{
+    background-color:rgb(94, 161, 255) ;
+    border: 2px solid rgb(255, 255, 92);
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+#bloco3{
+    background-color: rgb(176, 216, 255);
+    border: 2px solid rgb(150, 1, 135);
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: rgb(150, 1, 135);
+    font-family: ;
+}
+
+#bloco4{
+    background-color: white;
+    border: 2px solid red;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
