@@ -1,0 +1,85 @@
+#Azul{
+    color: blue;
+}
+#TituloPrincipal{
+    background-color: yellow;
+}
+.Subtitulos{
+    color: green;
+}
+#ItensdeLista{
+    color: blue;
+}
+.Div1{
+    background-color: blueviolet;
+}
+.Div2{
+    background-color: aquamarine;
+}
+.Agrupandoseletores{
+    color: blue;
+}
+#Textocentralizado{
+    text-align: center;
+}
+#Link1{
+    color: blueviolet;
+}
+#Link2{
+    color: blue;
+}
+.Classecompartilhada{
+    font-weight: bold;
+}
+#Imagenscomborda1{
+    border: 2px solid black;
+}
+#Imagenscomborda2{
+    border: 3px solid black;
+}
+div p{
+    color: aqua;
+}
+.cor1{
+    color: cadetblue;
+}
+.cor2{
+    color: darkblue;
+}
+#Fontepersonalizada{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Negrito{
+    font-weight: bold;
+}
+.Italico{
+    font-style: italic;
+}
+.Sublinhado{
+    text-decoration: underline;
+}
+div h3{
+    color: lightblue;
+}
+#Vermelho{
+    background-color: red;
+}
+#Verde{
+    background-color: green;
+}
+#Azul2{
+    background-color: blue;
+}
+.Destaque{
+    color: blue;
+}
+#Caixaestilizada{
+    background-color: deepskyblue;
+    border: 3px solid blue;
+}
+.Linkssublinhados{
+    text-decoration: underline;
+}
+.Agrupandoelementos{
+    color: dodgerblue;
+}
