@@ -1,0 +1,143 @@
+.listadecompras{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+}
+.cadastrodepessoas{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.cadastrodepessoas th{
+    background-color: rgb(139, 156, 207);
+    border-radius: 5px;
+}
+.agendadecompromissos{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    color: rgb(0, 0, 138);
+}
+.catalogodeprodutos{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.notasdosalunos{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.notasdosalunos th{
+    font-size: larger;
+}
+.cardapiodasemana{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(196, 217, 255);
+}
+.horariodasaulas{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.resultadosdocampeonato{
+    border: 10px solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.precosdemercado{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.precosdemercado th{
+    color: red;
+}
+.listadefilmes{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.frutaspreferidas{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.frutaspreferidas td{
+    font-style: italic;
+}
+.tabuada{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.materiasescolares{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.materiasescolares th{
+    background-color: rgb(196, 217, 255);;
+}
+.listadefuncionarios{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    color: aquamarine;
+}
+.restaurante{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.calendariosimplificado{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#linha2{
+    background-color: rgb(196, 217, 255);;
+}
+.boletimescolar{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.boletimescolar th{
+    background-color: rgb(106, 170, 255) ;
+    color: rgb(51, 82, 255);
+    border-radius: 5px;
+}
+.paisesecapitais{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.catalogodelivros{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.catalogodelivros th{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tabelafinal{
+    border: solid rgb(106, 170, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(196, 217, 255);
+    color: rgb(0, 0, 138);
+}
+.tabelafinal th{
+    font-style: italic;
+}
+
+
