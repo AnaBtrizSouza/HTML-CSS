@@ -1,0 +1,73 @@
+:root {
+  --blue-dark: rgb(0, 0, 57);
+  --blue-medium: #0b3d7a;
+  --blue-light: #1d6fb8;
+  --blue-accent: rgb(102, 153, 198);;
+  --text-color: azure;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg, var(--blue-dark), var(--blue-medium), var(--blue-light));
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+.site-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Conteúdo */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro, .features, .callout {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.callout {
+  border-left: 5px solid var(--blue-accent);
+}
+
+/* Rodapé */
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.site-footer a {
+  color: var(--blue-accent);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,75 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: azure;
+      background: linear-gradient(to bottom, rgb(0, 0, 57), #0b3d7a, rgb(102, 153, 192), #8cd1ff);
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 80px;
+      background: rgb(0, 0, 57);
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header p {
+      margin-top: 10px;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 57);
+      text-align: center;
+      padding: 15px 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #9be3ff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 120px 20px 40px; /* espaço por causa do menu fixo */
+    }
+
+    section {
+      margin-bottom: 50px;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+
+    section h2 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(3, 31, 75, 0.9);
+    }
+
+    footer a {
+      color: #9be3ff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }

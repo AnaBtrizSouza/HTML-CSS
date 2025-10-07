@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/aula10/elementossemanticos/desafio4.css">
+</head>
+<body>
+    
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#especies">Espécies</a>
+    <a href="#curiosidades">Curiosidades</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <header id="inicio">
+    <h1>Fundo do Mar</h1>
+    <p>Explorando os segredos e a vida marinha</p>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>O oceano cobre mais de 70% da Terra e abriga uma incrível diversidade de vida. 
+         Aqui falamos sobre sua importância e curiosidades.</p>
+    </section>
+
+    <section id="especies">
+      <h2>Espécies</h2>
+      <p>Conheça algumas espécies fascinantes, desde os pequenos corais até os gigantes das profundezas.</p>
+    </section>
+
+    <section id="curiosidades">
+      <h2>Curiosidades</h2>
+      <p>Apenas uma pequena parte do oceano foi explorada. Muitas descobertas ainda aguardam 
+         os cientistas no fundo do mar.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Para dúvidas e sugestões, entre em contato pelo e-mail: 
+        <a href="mailto:contato@fundo-do-mar.exemplo">contato@fundo-do-mar.exemplo</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Fundo do Mar. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
