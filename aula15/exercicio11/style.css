@@ -1,0 +1,19 @@
+.container-alto {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 80%;
+    height: 300px; 
+    margin: 50px auto;
+    border: 3px solid #3498db;
+    background-color: #f4f4f4;
+}
+
+.texto-centralizado {
+    
+    margin: 0; 
+    padding: 10px;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.pai {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+.filho {
+width: 60px;
+height: 60px;
+background: #166ba0;
+}

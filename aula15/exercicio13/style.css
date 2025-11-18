@@ -1,0 +1,15 @@
+.gallery-container {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+    width: 90%; 
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.gallery-item {
+    background-color: rgb(0, 72, 255);
+    padding: 20px;
+    height: 150px; 
+    text-align: center;
+}

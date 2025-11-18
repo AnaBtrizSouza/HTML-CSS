@@ -1,0 +1,15 @@
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    width: 90%; 
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.gallery-image {
+    width: 300px; 
+    margin: 10px; 
+    height: auto;
+    border: 3px solid #3498db;
+}

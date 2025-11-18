@@ -1,0 +1,15 @@
+.pai{
+    background-color: rgb(181, 220, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.filho {
+flex: 1;
+padding: 20px;
+background: #1a8ebc;
+margin: 5px;
+text-align: center;
+color: white;
+}
